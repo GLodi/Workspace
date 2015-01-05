@@ -1,0 +1,3 @@
+include ':Remembr'
+include ':gridlayout_v7'
+include ':appcompat_v7'

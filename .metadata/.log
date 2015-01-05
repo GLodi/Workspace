@@ -1,0 +1,2078 @@
+!SESSION 2014-09-22 21:40:18.347 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+This is a continuation of log file C:\Users\Lodi\Documents\workspace\.metadata\.bak_0.log
+Created Time: 2014-09-22 22:03:33.250
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.250
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.252
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.254
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.256
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.337
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.338
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.341
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.342
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.411
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.412
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.414
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.415
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.502
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.503
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.505
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.507
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.603
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.604
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.607
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.609
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:145)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
+	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
+	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.705
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.707
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.708
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.711
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.781
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.782
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.783
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.784
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.860
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.861
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.863
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.864
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.943
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.945
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.946
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:33.947
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.021
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.022
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.024
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.026
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.103
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.105
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.106
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.107
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.182
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.183
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.184
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.185
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.277
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.278
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.280
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.281
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.351
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.353
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.356
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.358
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.429
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.430
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.432
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:34.433
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.413
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.414
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.418
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.419
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.429
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.432
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.434
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.435
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.446
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.447
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.450
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.452
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.468
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.471
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.477
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.478
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.486
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.487
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.491
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.494
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.500
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.501
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.504
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.505
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.513
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.515
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.516
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.518
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.525
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.527
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.530
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.531
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.537
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.539
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.544
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.546
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.551
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.553
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.557
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.559
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.566
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.568
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.569
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.570
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.579
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.580
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.582
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.584
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.591
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.593
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.595
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.596
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.603
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.604
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.607
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.608
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.615
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.616
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.619
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.620
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.628
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.631
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.632
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.635
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.641
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.643
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.644
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.646
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.651
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.652
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.653
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.655
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.665
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.671
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.677
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:37.679
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.713
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.714
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.716
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.717
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.723
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.725
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.726
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.728
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.733
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.734
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.735
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.737
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.744
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.746
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.747
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.749
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.755
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.756
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.758
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.759
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.766
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.768
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.769
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.771
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.778
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.779
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.782
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.783
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.789
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.790
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.792
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.794
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.800
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.801
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.802
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.804
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.811
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.812
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.814
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.816
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.822
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.823
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.825
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.826
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.833
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.834
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.836
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.837
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.843
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.844
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.845
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.846
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.852
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.853
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.854
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.855
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.867
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.869
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.873
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.876
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.886
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.887
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.888
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.889
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.896
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.897
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.898
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.899
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.903
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.904
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.906
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.907
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.915
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.916
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.917
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:46.918
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:49.092
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.068
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.071
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.078
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.080
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.088
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.090
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.094
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.096
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.104
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.106
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.110
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.112
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.118
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.120
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.123
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.125
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.133
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.135
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.138
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.142
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.150
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.151
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.153
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.155
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.162
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.164
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.167
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.169
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.176
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.178
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.181
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.182
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.189
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.191
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.193
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.195
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.201
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.202
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.261
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.267
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.277
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.282
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.284
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.285
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.297
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.299
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.301
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.302
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.315
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.317
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.319
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.320
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.329
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.331
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.332
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.334
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.341
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.343
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.345
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.346
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.353
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.355
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.357
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.359
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.366
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.368
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.370
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.371
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.381
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.383
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.384
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.386
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.393
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.395
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.397
+!MESSAGE Failed to get ProjectResource for the framework
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-22 22:03:51.401
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+!SESSION 2014-09-22 22:12:06.017 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-22 22:12:26.156
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-22 22:12:26.157
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lodi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2014-09-22 22:14:37.709
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-09-24 17:15:45.657 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-24 17:16:20.439
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-24 17:16:20.450
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lodi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2014-09-24 17:16:29.349
+!MESSAGE While loading class "org.eclipse.cdt.internal.ui.text.ICReconcilingListener", thread "Thread[main,6,main]" timed out waiting (5065ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.cdt.ui_5.3.2.201202111925 [64]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.cdt.internal.ui.text.ICReconcilingListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.cdt.ui_5.3.2.201202111925.jar" by thread "Worker-1".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:188)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClassHoldingLock(ClasspathManager.java:632)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:607)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:568)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:492)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:465)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.cdt.codan.internal.ui.cxx.Startup$1$1.<init>(Startup.java:47)
+	at org.eclipse.cdt.codan.internal.ui.cxx.Startup$1.run(Startup.java:46)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 56 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:188)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClassHoldingLock(ClasspathManager.java:632)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:607)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:568)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:492)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:465)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.cdt.codan.internal.ui.cxx.Startup$1$1.<init>(Startup.java:47)
+	at org.eclipse.cdt.codan.internal.ui.cxx.Startup$1.run(Startup.java:46)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@45310e5e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6d074b14,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10acff2e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4b4ee511,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7cb17d00,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@43984213,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3e3831d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@732f6050,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@73368bb6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2f9a4401,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4145f71,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@436bd4df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@73ba7b8e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@cf36a91,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4b5f3b82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@765d55d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6d161a4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@28ee7bee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.295
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4d507a68,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b6924cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.296
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5a6036b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@280d4882,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.296
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@68d18554,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@68565bc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-24 18:40:14.296
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@35c83e63,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d408060,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2014-09-24 22:08:56.725
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-09-24 22:14:16.348 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-24 22:14:42.923
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-24 22:14:42.929
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lodi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2014-09-24 22:19:17.491
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
