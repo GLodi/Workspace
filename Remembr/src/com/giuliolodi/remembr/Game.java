@@ -16,8 +16,6 @@ import java.util.Random;
 
 public class Game extends ActionBarActivity {
 
-    public ArrayList<Integer> items = new ArrayList<Integer>();
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -31,14 +29,24 @@ public class Game extends ActionBarActivity {
             @Override
             public void onClick(View view) {
                 for(int n = 0; n < 9; n++){
-                    Random ran = new Random();
-                    int randomNum = ran.nextInt(9);
-                    adapter.mThumbIds[n] = ImageAdapter.mThumbIdsCon[randomNum];
+                    shuffleArray(adapter.mThumbIds);
                     adapter.notifyDataSetChanged();
                 }
             }
         });
 	}
+
+    static void shuffleArray(Integer[] ar)
+    {
+        Random rnd = new Random();
+        for (int i = ar.length - 1; i > 0; i--)
+        {
+            int index = rnd.nextInt(i + 1);
+            int a = ar[index];
+            ar[index] = ar[i];
+            ar[i] = a;
+        }
+    }
 	
 	@Override
 	public void onBackPressed() {

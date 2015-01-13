@@ -9,12 +9,6 @@ import android.widget.ImageView;
 
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
-
-    public static final Integer[] mThumbIdsCon = {
-            R.drawable.n1, R.drawable.n2, R.drawable.n3,
-            R.drawable.n4, R.drawable.n5, R.drawable.n6,
-            R.drawable.n7, R.drawable.n8, R.drawable.n9,
-    };
  
     public Integer[] mThumbIds = {
             R.drawable.n1, R.drawable.n2, R.drawable.n3, 
@@ -47,7 +41,6 @@ public class ImageAdapter extends BaseAdapter {
         imageView.setImageResource(mThumbIds[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
         imageView.setLayoutParams(new GridView.LayoutParams(300, 300));
-
         return imageView;
     }
  
