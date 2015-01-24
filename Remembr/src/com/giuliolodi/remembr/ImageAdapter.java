@@ -9,11 +9,9 @@ import android.widget.ImageView;
 
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
- 
+
     public Integer[] mThumbIds = {
-            R.drawable.n1, R.drawable.n2, R.drawable.n3, 
-            R.drawable.n4, R.drawable.n5, R.drawable.n6,
-            R.drawable.n7, R.drawable.n8, R.drawable.n9,
+            0,0,0,0,0,0,0,0,0,
     };
  
     public ImageAdapter(Context c){
