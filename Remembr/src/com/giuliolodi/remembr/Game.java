@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.Window;
 import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
 
@@ -14,6 +15,10 @@ import java.util.Random;
 public class Game extends ActionBarActivity {
 
     int millis = 1000;
+
+    public int[] answer = new int[9];
+    public int[] guess = new int[9];
+    public boolean onGoing = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +32,15 @@ public class Game extends ActionBarActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                millis = 500;
-                startGame();
+                if (!onGoing){
+                    millis = 500;
+                    for (int i = 0; i < 9; i++) {
+                        answer[i] = 0;
+                        guess[i] = 0;
+                    }
+                    startGame();
+                    checkAnswer();
+                }
             }
         });
         Button button2 = (Button) findViewById(R.id.button2);
@@ -42,13 +54,31 @@ public class Game extends ActionBarActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                millis = 250;
-                startGame();
+                if (!onGoing){
+                    millis = 250;
+                    for (int i = 0; i < 9; i++){
+                        answer[i] = 0;
+                        guess[i] = 0;
+                    }
+                    startGame();
+                    checkAnswer();
+                }
             }
         });
 	}
 
+    public void checkAnswer(){
+        GridView gridView1 = (GridView) findViewById(R.id.gridView1);
+        gridView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                guess[0] = i;
+            }
+        });
+    }
+
     public void startGame(){
+        onGoing = true;
         GridView gridView1 = (GridView) findViewById(R.id.gridView1);
         final ImageAdapter adapter = new ImageAdapter(this);
         gridView1.setAdapter(adapter);
@@ -56,6 +86,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[0];
         adapter.notifyDataSetChanged();
+        answer[0] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -73,6 +104,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[1];
         adapter.notifyDataSetChanged();
+        answer[1] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -90,6 +122,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[2];
         adapter.notifyDataSetChanged();
+        answer[2] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -107,6 +140,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[3];
         adapter.notifyDataSetChanged();
+        answer[3] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -124,13 +158,30 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[4];
         adapter.notifyDataSetChanged();
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startGame6();
-            }
-        }, millis);
+        answer[4] = randNum;
+        if (millis == 500){
+            final Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    for(int i = 0; i < 9; i++){
+                        adapter.mThumbIds[i] = 0;
+                    }
+                    adapter.notifyDataSetChanged();
+                }
+            }, millis);
+            onGoing = false;
+        }
+
+        if (millis != 500){
+            final Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startGame6();
+                }
+            }, millis);
+        }
     }
 
     public void startGame6(){
@@ -141,6 +192,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[5];
         adapter.notifyDataSetChanged();
+        answer[5] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -158,6 +210,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[6];
         adapter.notifyDataSetChanged();
+        answer[6] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -175,6 +228,7 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[7];
         adapter.notifyDataSetChanged();
+        answer[7] = randNum;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -192,6 +246,18 @@ public class Game extends ActionBarActivity {
         int randNum = rand.nextInt(9);
         adapter.mThumbIds[randNum] = draw[8];
         adapter.notifyDataSetChanged();
+        answer[8] = randNum;
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                for(int i = 0; i < 9; i++){
+                    adapter.mThumbIds[i] = 0;
+                };
+                adapter.notifyDataSetChanged();
+            }
+        }, millis);
+        onGoing = false;
     }
 
     public static final Integer[] draw = {
