@@ -948,7 +948,8 @@ containing a value of this type.
         public static final int n9=0x7f020063;
         public static final int remembrstartnew=0x7f020064;
         public static final int remembrstartnewpr=0x7f020065;
-        public static final int titolo1920x1080b=0x7f020066;
+        public static final int sfondo1=0x7f020066;
+        public static final int titolo1920x1080b=0x7f020067;
     }
     public static final class id {
         public static final int action_bar=0x7f07002d;
@@ -962,7 +963,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f070026;
         public static final int action_menu_presenter=0x7f070027;
         public static final int action_mode_close_button=0x7f070035;
-        public static final int action_settings=0x7f070056;
+        public static final int action_settings=0x7f070057;
         public static final int activity_chooser_view_content=0x7f070036;
         public static final int alignBounds=0x7f07000b;
         public static final int alignMargins=0x7f07000c;
@@ -1031,6 +1032,7 @@ containing a value of this type.
         public static final int tabMode=0x7f070002;
         public static final int textView1=0x7f07004d;
         public static final int textView2=0x7f070051;
+        public static final int textViewCenter=0x7f070056;
         public static final int title=0x7f07003c;
         public static final int top=0x7f07000d;
         public static final int top_action_bar=0x7f070031;

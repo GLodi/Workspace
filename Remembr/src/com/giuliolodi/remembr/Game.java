@@ -5,7 +5,6 @@ import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.Window;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
@@ -14,7 +13,7 @@ import java.util.Random;
 
 public class Game extends ActionBarActivity {
 
-    int millis = 1000;
+    int millis;
 
     public int[] answer = new int[9];
     public int[] guess = new int[9];
@@ -68,11 +67,72 @@ public class Game extends ActionBarActivity {
 	}
 
     public void checkAnswer(){
-        GridView gridView1 = (GridView) findViewById(R.id.gridView1);
+        final GridView gridView1 = (GridView) findViewById(R.id.gridView1);
+        final ImageAdapter adapter = new ImageAdapter(this);
         gridView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                guess[0] = i;
+                gridView1.setAdapter(adapter);
+                if (answer[0] == i){
+                    adapter.mThumbIds[i] = draw[0];
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            for (int i = 0; i < 9; i++)
+                                adapter.mThumbIds[i] = 0;
+                            adapter.notifyDataSetChanged();
+                        }
+                    }, 1000);
+                }
+                if (answer[1] == i){
+                    adapter.mThumbIds[i] = draw[1];
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            for (int i = 0; i < 9; i++)
+                                adapter.mThumbIds[i] = 0;
+                            adapter.notifyDataSetChanged();
+                        }
+                    }, 1000);
+                }
+                if (answer[2] == i){
+                    adapter.mThumbIds[i] = draw[2];
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            for (int i = 0; i < 9; i++)
+                                adapter.mThumbIds[i] = 0;
+                            adapter.notifyDataSetChanged();
+                        }
+                    }, 1000);
+                }
+                if (answer[3] == i){
+                    adapter.mThumbIds[i] = draw[3];
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            for (int i = 0; i < 9; i++)
+                                adapter.mThumbIds[i] = 0;
+                            adapter.notifyDataSetChanged();
+                        }
+                    }, 1000);
+                }
+                if (answer[4] == i){
+                    adapter.mThumbIds[i] = draw[4];
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            for (int i = 0; i < 9; i++)
+                                adapter.mThumbIds[i] = 0;
+                            adapter.notifyDataSetChanged();
+                        }
+                    }, 1000);
+                }
             }
         });
     }
@@ -172,7 +232,6 @@ public class Game extends ActionBarActivity {
             }, millis);
             onGoing = false;
         }
-
         if (millis != 500){
             final Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -253,7 +312,7 @@ public class Game extends ActionBarActivity {
             public void run() {
                 for(int i = 0; i < 9; i++){
                     adapter.mThumbIds[i] = 0;
-                };
+                }
                 adapter.notifyDataSetChanged();
             }
         }, millis);
